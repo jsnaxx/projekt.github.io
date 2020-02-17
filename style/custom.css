@@ -1,0 +1,170 @@
+/** style globalne **/
+p {
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.btn {
+  padding: 0.5rem 1.25rem;
+}
+
+.page-label {
+  letter-spacing: 0.15rem;
+  font-size: 0.75rem;
+}
+
+/** Navbar **/
+
+.navbar .navbar-nav .nav-item {
+  padding: 0 1.5rem;
+}
+
+/** Top**/
+
+.top {
+  padding: 160px 0 160px;
+  background-image: url(../images/top-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-header {
+  font-size: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.text-top {
+  font-size: 1.1rem;
+  padding-bottom: 1.5rem;
+}
+
+/** wprowadzenie**/
+
+.introduction {
+  padding: 50px 0;
+}
+
+.introduction-header {
+  margin-bottom: 60px;
+  font-size: 3rem;
+}
+
+.introduction-item {
+  padding: 0 2rem;
+}
+
+.introduction-item-header {
+  margin: 1.5rem;
+}
+
+/**opinie**/
+.testimonial {
+  padding: 100px;
+  background-image: url(../images/testimonial-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonial-content {
+  width: 80%;
+}
+
+.testimonial-header {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/**Realizacje**/
+
+.portfolio {
+  padding: 80px 0 40px;
+  background-color: #f3f3f3;
+}
+
+.portfolio-header {
+  margin-bottom: 80px;
+}
+
+.portfolio-img {
+  margin-bottom: 2rem;
+}
+
+.portfolio-subheading {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.portfolio-button {
+  margin: 0.3rem 0 2rem;
+}
+
+/**formularz kontaktowy**/
+.write-to-us {
+  margin: 60px 0 0;
+}
+
+.write-to-us-header {
+  margin-bottom: 80px;
+}
+
+.write-to-us-left {
+  padding: 0 20px;
+}
+
+.form-control-label {
+  font-size: 0.7rem;
+  color: #999999;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+input {
+  height: 2rem;
+}
+
+textarea {
+  margin-bottom: 1.75rem;
+}
+
+.button-write-to-us {
+  margin: 0 0 2rem;
+}
+/** stopka**/
+
+.site-footer {
+  background-color: #2d3e50;
+  padding: 60px 0 50px;
+  font-size: 0.9rem;
+}
+
+.footer-first-col li {
+  padding: 0.6rem 0;
+}
+
+.footer-first-col li i {
+  padding: 0 0.5rem;
+}
+
+.footer-second-col li {
+  width: 100%;
+  padding: 0.6rem 0;
+}
+
+.footer-second-col li a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer-second-col li span {
+  padding: 0 0.5rem;
+}
+
+/**copyright**/
+.copyright {
+  padding: 0.8rem 0;
+  font-size: 0.7rem;
+  line-height: 1.5rem;
+}

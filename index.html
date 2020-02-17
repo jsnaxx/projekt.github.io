@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kurs Boostrap 4</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css" />
+    <link rel="stylesheet" href="style/font-awesome.min.css" />
+    <link rel="stylesheet" href="style/custom.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-light navbar-expand-lg">
+      <div class="container">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navContent"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navContent">
+          <div class="navbar-nav">
+            <a href="#" class="nav-item nav-link text-warning">Start</a>
+            <a href="#" class="nav-item nav-link">Cennik</a>
+            <a href="#" class="nav-item nav-link">Realizacje</a>
+            <a href="#" class="nav-item nav-link">Kontakt</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Top section-->
+    <div class="jumbotron jumbotron-fluid text-white text-center top">
+      <div class="container">
+        <h1 class="text-uppercase text-header">
+          Odkryj <span class="text-warning">nowa jakość</span> w budownictwie
+        </h1>
+        <p class="text-top">
+          Ponad 30 lat doświadczenia czyni nas liderem rynku środkowo
+          Europejskiego
+        </p>
+        <button class="btn btn-warning text-white">Więcej</button>
+      </div>
+    </div>
+
+    <!-- Wprowadzenie-->
+    <section class="introduction text-center">
+      <h2 class="text-uppercase introduction-header">Buduj z Nami</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <div class="introduction-item">
+              <img src="images/ikona1.png" alt="ikona1" />
+              <h3 class="introduction-item-header">Innowacja</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur sequi pariatur explicabo.
+              </p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="introduction-item">
+              <img src="images/ikona2.png" alt="ikona2" />
+              <h3 class="introduction-item-header">Tradycja</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur sequi pariatur explicabo.
+              </p>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="introduction-item">
+              <img src="images/ikona3.png" alt="ikona3" />
+              <h3 class="introduction-item-header">Doświadczenie</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Aspernatur sequi pariatur explicabo.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- opinie klientow-->
+    <section class="testimonial text-center text-white">
+      <h2 class="text-uppercase testimonial-header">
+        Opinie <span class="text-warning">klientów</span>
+      </h2>
+      <div class="container">
+        <div class="testimonial-content mx-auto">
+          <blockquote class="blockquote">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+              ratione repellendus maiores incidunt in exercitationem vero,
+              nesciunt sit.
+            </p>
+            <footer class="blockquote-footer text-white">
+              Jan Kowalski <cite>Inwestor</cite>
+            </footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!--Realizacje-->
+    <section class="portfolio">
+      <h2 class="text-center text-uppercase portfolio-header">
+        Nasze najnowsze realizacje
+      </h2>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <img
+              class="img-fluid rounded portfolio-img"
+              src="images/inwestycja-1-mod.jpg"
+              alt="Inwestycja1"
+            />
+            <span class="text-danger text-uppercase page-label"
+              >Inwestycja</span
+            >
+            <h3 class="text-uppercase portfolio-subheading">Biurowiec</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Assumenda voluptatem eveniet in sint a inventore dolor nulla
+              dolorum repudiandae voluptas commodi minus porro aspernatur,
+              itaque nemo vel quibusdam nobis reiciendis
+            </p>
+            <button class="btn btn-danger portfolio-button">
+              Czytaj więcej
+            </button>
+          </div>
+          <div class="col-md">
+            <img
+              class="img-fluid rounded portfolio-img"
+              src="images/inwestycja-2-mod.jpg"
+              alt="Inwestycja2"
+            />
+            <span class="text-danger text-uppercase page-label"
+              >Inwestycja</span
+            >
+            <h3 class="text-uppercase portfolio-subheading">
+              Osiedle mieszkaniowe
+            </h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Assumenda voluptatem eveniet in sint a inventore dolor nulla
+              dolorum repudiandae voluptas commodi minus porro aspernatur,
+              itaque nemo vel quibusdam nobis reiciendis
+            </p>
+            <button class="btn btn-danger portfolio-button">
+              Czytaj więcej
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Formularz kontaktowy-->
+    <section class="write-to-us">
+      <h2 class="text-uppercase text-center write-to-us-header">
+        Skontaktuj sie z nami
+      </h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="write-to-us-left">
+              <form action="">
+                <label for="name" class="form-control-label"
+                  >Imie i nazwisko</label
+                >
+                <input type="text" id="name" class="form-control" />
+                <label for="email" class="form-control-label">E-mail</label>
+                <input type="text" id="email" class="form-control" />
+                <label for="msg-title" class="form-control-label"
+                  >Tytuł wiadomości</label
+                >
+                <input type="text" id="msg-title" class="form-control" />
+                <label for="message" class="form-control-label"
+                  >Wiadomość</label
+                >
+                <textarea
+                  id="message"
+                  cols="30"
+                  rows="5"
+                  class="form-control"
+                ></textarea>
+                <button class="btn btn-success button-write-to-us">
+                  Wyślij wiadomość
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-7 d-flex">
+            <img
+              class="img-fluid align-self-center budowlaniec-img"
+              src="IMAGES/budowlaniec.jpg"
+              alt="BUDOWLANIEC"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--stopka-->
+    <footer class="site-footer text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-first-col">
+            <ul class="list-unstyled">
+              <li>
+                <i class="fa fa-phone text-warning" aria-hidden="true"></i
+                >888-225-563
+              </li>
+              <li>
+                <i class="fa fa-clock-o text-warning" aria-hidden="true"></i
+                >Pn-Pt 8'00 - 16'00
+              </li>
+              <li>
+                <i class="fa fa-envelope text-warning" aria-hidden="true"></i
+                >kursy@strefa.pl
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 footer-second-col">
+            <ul class="list-unstyled">
+              <li>
+                <span class="text-warning">></span><a href="#">Dlaczego my?</a>
+              </li>
+              <li>
+                <span class="text-warning">></span
+                ><a href="#">Nasze realizacje</a>
+              </li>
+              <li>
+                <span class="text-warning">></span
+                ><a href="#">Jak dbamy o bezpieczenstwo</a>
+              </li>
+              <li>
+                <span class="text-warning">></span
+                ><a href="#">Innowacje i technologie</a>
+              </li>
+              <li><span class="text-warning">></span><a href="#">O nas</a></li>
+            </ul>
+          </div>
+          <div class="col-md-5 footer-third-col">
+            <img class="img-fluid" src="images/mapa.jpg" alt="mapa" />
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!--copyright-->
+    <section class="text-center text-white bg-warning copyright">
+      <div class="container">
+        &copy; Copyright 2017 Budowlani Sp. z.o.o Wszelkie prawa zastrzezone
+        <span class="d-block">Designed by strefakursow.pl</span>
+      </div>
+    </section>
+    <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
